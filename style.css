@@ -1,0 +1,33 @@
+body{
+	background-color: grey;
+}
+.rod{
+	width: 200px;
+	height: 15px;
+
+	border-radius: 15px;
+	background-color: black;
+	padding: 4px;
+	text-align: center;
+	align-content: center;
+}
+#player1{
+	color: white;
+	border: 2px solid white;
+}
+#player2{
+	background-color: white;
+	margin-top:690px;
+	border: 2px solid black;
+}
+
+#ball{
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: red;
+	border:4px solid black;
+	top: 0px;
+	left: 0px;
+}
